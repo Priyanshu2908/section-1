@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact us</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <style>
+        body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.container{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(109deg, yellow, red);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.item{
+    width: 100%;
+    height: 500px;
+    max-width: 820px;
+    background: #fff;
+    border-radius: 20px;
+    box-shadow: 0 0 20px 10px rgba(0, 0,0,4);
+    overflow: hidden;
+    grid-template-columns: repeat(2, 1fr);
+    display: grid;
+    z-index: 1000;
+}
+.contact{
+    background: white   ;
+}
+.submit-form{
+    background-image: linear-gradient(109deg, yellow, red);
+}
+.first-text{
+    padding-left: 20px;
+    padding-top: 20px;
+    font-size: 35px;
+    color: orange;
+    font-weight: 600;
+}
+.image{
+    height: 320px;
+    width: 320px;
+
+}
+.social-media{
+    display: flex;
+    list-style: none;
+}
+ ul li{
+    padding-left: 15px;
+    font-size: 24px;
+    margin-top: 10px;
+
+}
+i {
+    background-image: linear-gradient(109deg, yellow, red);
+    padding: 5px;
+    border-radius: 5px;
+    transition: .3s;
+    color: white;
+}
+.social-media i:hover{
+    background: black;
+    color: yellow;
+}
+.secnd-text{
+    font-weight: 500;
+    background: white;
+}
+.third-text{
+    font-size: 25px;
+    position: relative;
+    top: 20px;
+    left: 20px;
+    padding-top: 10px;
+    color: #fff;
+}
+.form{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+.input-box{
+    height: 40px;
+    width: 70%;
+    margin: 30px 0;
+    position: relative;  
+}
+.input{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: 2px solid #fff;
+    border-radius: 20px;
+    outline: none;
+    padding-left: 10px;
+    color: #fff;
+    font-size: 16px;
+}
+.input-box label{
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    padding-left: 10px;
+    transform: translateY();
+    font-size: 15px;
+    font-weight: 500;
+    color: #fff;
+}
+.Submit{
+    margin-top: 50px;
+    border-radius: 5px;
+    background: white;
+}
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item">
+            <div class="contact">
+            <div class="first-text">Let's get in touch</div>
+            <img src="https://vectorforfree.com/wp-content/uploads/2020/03/Working_Men_VectorForFree.png" alt="" class="image">
+            <div class="social links">
+                <span class="secnd text" style="font-size: large;">Connect with us:</span>
+                <ul class="social-media">
+                    <li><a href="#"><i class='bx bxl-facebook'></i></a></li>
+                    <li><a href="#"><i class='bx bxl-twitter'></i></a></li>
+                    <li><a href="#"><i class='bx bxl-youtube'></i></a></li>
+                    <li><a href="#"><i class='bx bxl-instagram' ></i></a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="submit-form">
+            <h4 class="third-text">Contact Us</h4>
+            <form style="padding: 0 50px;">
+                <div class="input-box">
+                    <input type="text" class="input" placeholder="Name" required>
+                    <label for=""></label>
+                </div>
+                <div class="input-box">
+                    <input type="email" class="input" placeholder="Email" >
+                    <label for=""></label>
+                </div>
+                <div class="input-box">
+                    <input type="tel" class="input" placeholder="Phone">
+                    <label for=""></label>
+                </div>
+                <div class="input-box">
+                    <textarea name="" class="input" placeholder="Message" required id="message" cols="30" rows="10"></textarea>
+                    <label for=""></label>
+                </div>
+                <input type="submit" class="Submit">
+                
+            </form>
+        </div>
+        </div>
+    </div>
+</body>
+</html>
