@@ -82,3 +82,11 @@ for(let i=0; i<10; i++){
     a=b;
     b=c;
 }
+
+const temp =30;
+far_temp = (temp*9/5)+32;
+console.log('temperatre for '+temp+'  degree c in fahrenheit is '+far_temp+'degree f');
+console.log(`temperatre for ${temp}  degree c in fahrenheit is ${far_temp} degree f`);
+
+let(a,b<100);
+console.log(``);
