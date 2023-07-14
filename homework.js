@@ -4,7 +4,8 @@ for(let i=1; i<100; i++){
     
 
 }
-    const newnumber=number.filter( (p) => {return(p**0.5)===parseInt(p**0.5)});
+    const newnumber=number.filter
+]]]]( (p) => {return(p**0.5)===parseInt(p**0.5)});
         console.log(newnumber);
 
 //Q2. Create an array of names and filter names with length greater than 5.
