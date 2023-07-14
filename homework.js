@@ -10,7 +10,7 @@ for(let i=1; i<100; i++){
 //Q2. Create an array of names and filter names with length greater than 5.
 
 const names=['Priyanshu', 'Gaurav', 'Shashwat', 'Riya', 'Shubh', 'Addy', 'Alankrit'];
-const newnames=names.filter( (n) => {return n.length<5});
+const newnames=names.filter( (n) => {return n.length>5});
         console.log(newnames);
 
 
@@ -35,4 +35,5 @@ const newnames1=names1. map( (b) => {return b.split(" ")[0]});
         }
       }
     }
+
   
