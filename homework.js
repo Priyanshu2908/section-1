@@ -15,7 +15,7 @@ const newnames=names.filter( (n) => {return n.length<5});
 
 
 // Q3. Create an array of full names and use map to keep only first name.
-const names1=['Priyanshu Chaubey', 'Gaurav Mishra', 'Shashwat Rajpoot', 'Riya Tiwari', 'Shubhdeep singh', 'Addy Nagar', 'Alankrit Chaturvedi'];
+const names1=['Priyanshu Chaubey', 'Gaurav Mishra', 'Shashwat Rajpoot', 'Riya Tiwari', 'Shubhdeep singh', 'Addy Nagar', ];
 const newnames1=names1. map( (b) => {return b.split(" ")[0]});
  console.log(newnames1);
  
